@@ -29,7 +29,7 @@ apt-get install -q -y \
   zlib1g-dev \
   ;
 
-git clone https://github.com/pyenv/pyenv.git
+git clone --branch v2.3.9 https://github.com/pyenv/pyenv.git
 pushd pyenv/plugins/python-build
 ./install.sh
 popd
